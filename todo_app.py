@@ -246,7 +246,7 @@ async def update_todo(todo_id: int, todo_update: TodoUpdate):
         )
     
     # Update only provided fields
-    update_data = todo_update.dict(exclude_unset=True)
+    update_data = todo_update.model_dump(exclude_unset=True)
     
     for field, value in update_data.items():
         todo[field] = value
