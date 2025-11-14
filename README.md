@@ -19,4 +19,3 @@ This project demonstrates professional testing practices using a simple TODO API
 ## 🚀 Quick Start
 
 ### 1. Install Dependencies
-
